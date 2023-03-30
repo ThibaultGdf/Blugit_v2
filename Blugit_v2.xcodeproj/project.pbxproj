@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D906361A29B2A04400FAFE6B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D906361929B2A04400FAFE6B /* User.swift */; };
+		D937EC8629D5B788004EB56B /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D937EC8529D5B788004EB56B /* LogInView.swift */; };
+		D937EC8929D5B79C004EB56B /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D937EC8829D5B79C004EB56B /* SignInView.swift */; };
+		D937EC8C29D5B7BD004EB56B /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D937EC8B29D5B7BC004EB56B /* SignUpView.swift */; };
+		D937EC8F29D5B7FF004EB56B /* SignUpPictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D937EC8E29D5B7FF004EB56B /* SignUpPictureView.swift */; };
+		D937EC9129D5B896004EB56B /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D937EC9029D5B896004EB56B /* ColorExtension.swift */; };
 		D9FD07F629AA476200D53DE5 /* Blugit_v2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FD07F529AA476200D53DE5 /* Blugit_v2App.swift */; };
-		D9FD07F829AA476200D53DE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FD07F729AA476200D53DE5 /* ContentView.swift */; };
+		D9FD07F829AA476200D53DE5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FD07F729AA476200D53DE5 /* HomeView.swift */; };
 		D9FD07FA29AA476400D53DE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9FD07F929AA476400D53DE5 /* Assets.xcassets */; };
 		D9FD07FD29AA476400D53DE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9FD07FC29AA476400D53DE5 /* Preview Assets.xcassets */; };
 		D9FD080729AA476400D53DE5 /* Blugit_v2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FD080629AA476400D53DE5 /* Blugit_v2Tests.swift */; };
 		D9FD081129AA476400D53DE5 /* Blugit_v2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FD081029AA476400D53DE5 /* Blugit_v2UITests.swift */; };
 		D9FD081329AA476400D53DE5 /* Blugit_v2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FD081229AA476400D53DE5 /* Blugit_v2UITestsLaunchTests.swift */; };
+		D9FD082329AA479B00D53DE5 /* Designer.otf in Resources */ = {isa = PBXBuildFile; fileRef = D9FD082229AA479B00D53DE5 /* Designer.otf */; };
+		D9FD082729AA485F00D53DE5 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FD082629AA485F00D53DE5 /* HomeViewModel.swift */; };
+		D9FD082929AA61F100D53DE5 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FD082829AA61F100D53DE5 /* Game.swift */; };
+		D9FD082B29AA636500D53DE5 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FD082A29AA636500D53DE5 /* Comment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D906361929B2A04400FAFE6B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D937EC8529D5B788004EB56B /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		D937EC8829D5B79C004EB56B /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		D937EC8B29D5B7BC004EB56B /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		D937EC8E29D5B7FF004EB56B /* SignUpPictureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPictureView.swift; sourceTree = "<group>"; };
+		D937EC9029D5B896004EB56B /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		D9FD07F229AA476200D53DE5 /* Blugit_v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blugit_v2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9FD07F529AA476200D53DE5 /* Blugit_v2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blugit_v2App.swift; sourceTree = "<group>"; };
-		D9FD07F729AA476200D53DE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D9FD07F729AA476200D53DE5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		D9FD07F929AA476400D53DE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9FD07FC29AA476400D53DE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D9FD080229AA476400D53DE5 /* Blugit_v2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Blugit_v2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +60,11 @@
 		D9FD080C29AA476400D53DE5 /* Blugit_v2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Blugit_v2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9FD081029AA476400D53DE5 /* Blugit_v2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blugit_v2UITests.swift; sourceTree = "<group>"; };
 		D9FD081229AA476400D53DE5 /* Blugit_v2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blugit_v2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D9FD082229AA479B00D53DE5 /* Designer.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Designer.otf; sourceTree = "<group>"; };
+		D9FD082429AA482300D53DE5 /* Blugit-v2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Blugit-v2-Info.plist"; path = "Blugit_v2/Supporting Files/Blugit-v2-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D9FD082629AA485F00D53DE5 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		D9FD082829AA61F100D53DE5 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		D9FD082A29AA636500D53DE5 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +92,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D906361829B29BD000FAFE6B /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		D937EC8129D5B760004EB56B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D937EC9029D5B896004EB56B /* ColorExtension.swift */,
+			);
+			name = Extensions;
+			path = Model/Extensions;
+			sourceTree = "<group>";
+		};
+		D937EC8229D5B767004EB56B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D937EC8329D5B771004EB56B /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				D9FD07F729AA476200D53DE5 /* HomeView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		D937EC8429D5B779004EB56B /* LogInView */ = {
+			isa = PBXGroup;
+			children = (
+				D937EC8529D5B788004EB56B /* LogInView.swift */,
+			);
+			path = LogInView;
+			sourceTree = "<group>";
+		};
+		D937EC8729D5B78E004EB56B /* SignInView */ = {
+			isa = PBXGroup;
+			children = (
+				D937EC8829D5B79C004EB56B /* SignInView.swift */,
+			);
+			path = SignInView;
+			sourceTree = "<group>";
+		};
+		D937EC8A29D5B7A4004EB56B /* SignUpView */ = {
+			isa = PBXGroup;
+			children = (
+				D937EC8B29D5B7BC004EB56B /* SignUpView.swift */,
+			);
+			path = SignUpView;
+			sourceTree = "<group>";
+		};
+		D937EC8D29D5B7F5004EB56B /* SignUpPictureView */ = {
+			isa = PBXGroup;
+			children = (
+				D937EC8E29D5B7FF004EB56B /* SignUpPictureView.swift */,
+			);
+			path = SignUpPictureView;
+			sourceTree = "<group>";
+		};
+		D937EC9229D5B971004EB56B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9FD082429AA482300D53DE5 /* Blugit-v2-Info.plist */,
+				D9FD082229AA479B00D53DE5 /* Designer.otf */,
+				D9FD07F929AA476400D53DE5 /* Assets.xcassets */,
+				D9FD07FB29AA476400D53DE5 /* Preview Content */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		D9FD07E929AA476200D53DE5 = {
 			isa = PBXGroup;
 			children = (
@@ -95,9 +190,12 @@
 			isa = PBXGroup;
 			children = (
 				D9FD07F529AA476200D53DE5 /* Blugit_v2App.swift */,
-				D9FD07F729AA476200D53DE5 /* ContentView.swift */,
-				D9FD07F929AA476400D53DE5 /* Assets.xcassets */,
-				D9FD07FB29AA476400D53DE5 /* Preview Content */,
+				D9FD082029AA477600D53DE5 /* Model */,
+				D9FD081F29AA476F00D53DE5 /* View */,
+				D9FD082129AA477F00D53DE5 /* ViewModel */,
+				D906361829B29BD000FAFE6B /* Repository */,
+				D937EC8129D5B760004EB56B /* Extensions */,
+				D937EC9229D5B971004EB56B /* Supporting Files */,
 			);
 			path = Blugit_v2;
 			sourceTree = "<group>";
@@ -125,6 +223,37 @@
 				D9FD081229AA476400D53DE5 /* Blugit_v2UITestsLaunchTests.swift */,
 			);
 			path = Blugit_v2UITests;
+			sourceTree = "<group>";
+		};
+		D9FD081F29AA476F00D53DE5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D937EC8329D5B771004EB56B /* HomeView */,
+				D937EC8A29D5B7A4004EB56B /* SignUpView */,
+				D937EC8D29D5B7F5004EB56B /* SignUpPictureView */,
+				D937EC8729D5B78E004EB56B /* SignInView */,
+				D937EC8429D5B779004EB56B /* LogInView */,
+				D937EC8229D5B767004EB56B /* Components */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D9FD082029AA477600D53DE5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D9FD082829AA61F100D53DE5 /* Game.swift */,
+				D9FD082A29AA636500D53DE5 /* Comment.swift */,
+				D906361929B2A04400FAFE6B /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D9FD082129AA477F00D53DE5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D9FD082629AA485F00D53DE5 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +360,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9FD082329AA479B00D53DE5 /* Designer.otf in Resources */,
 				D9FD07FD29AA476400D53DE5 /* Preview Assets.xcassets in Resources */,
 				D9FD07FA29AA476400D53DE5 /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +387,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9FD07F829AA476200D53DE5 /* ContentView.swift in Sources */,
+				D9FD082B29AA636500D53DE5 /* Comment.swift in Sources */,
+				D937EC8629D5B788004EB56B /* LogInView.swift in Sources */,
+				D9FD07F829AA476200D53DE5 /* HomeView.swift in Sources */,
+				D906361A29B2A04400FAFE6B /* User.swift in Sources */,
+				D9FD082729AA485F00D53DE5 /* HomeViewModel.swift in Sources */,
+				D937EC8F29D5B7FF004EB56B /* SignUpPictureView.swift in Sources */,
 				D9FD07F629AA476200D53DE5 /* Blugit_v2App.swift in Sources */,
+				D937EC8929D5B79C004EB56B /* SignInView.swift in Sources */,
+				D937EC8C29D5B7BD004EB56B /* SignUpView.swift in Sources */,
+				D937EC9129D5B896004EB56B /* ColorExtension.swift in Sources */,
+				D9FD082929AA61F100D53DE5 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +559,7 @@
 				DEVELOPMENT_TEAM = MG8DTPV84D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Blugit-v2-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +589,7 @@
 				DEVELOPMENT_TEAM = MG8DTPV84D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Blugit-v2-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

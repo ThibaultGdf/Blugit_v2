@@ -11,7 +11,7 @@ import SwiftUI
 struct Blugit_v2App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }
